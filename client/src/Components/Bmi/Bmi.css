@@ -1,0 +1,79 @@
+.bmi{
+    background-color: #151515; 
+}
+.bmi-bold{
+    font-size: 2em;
+    font-weight: 600;
+}
+.bmi-cal{
+    border: 2px solid rgb(39, 39, 39);
+    margin-top: 10px;
+    padding: 2px 20px; 
+}
+.bmi1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 50px 0px 100px 0px; 
+}
+.bmi2,.bmi3{
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bmi2 table{
+    width: 40vw;
+}
+.bmi2 thead th{
+    border: 2px solid gray;
+    padding: 10px 20px;
+    background-color: black;
+}
+.bmi2 tbody {
+    border: 2px solid gray;
+}
+.bmi2 tbody td{
+    border-right: 1px solid gray;
+    padding: 10px 20px;
+}
+.plan-input{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.plan-input input{
+    background-color: transparent;
+    width: 15vw;
+    height: 50px;
+    padding-left: 10px;
+    color: white;
+}
+.bmi3 button{
+    background-color: #f36100;
+    color: white;
+    width: 30vw;
+    height: 50px;
+}
+ @media only screen and (max-width:900px){
+    .bmi1{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+    .bmi2,.bmi3{
+        width: 80vw;
+    }
+    .bmi2 table{
+        width: 78vw;
+    }
+    .plan-input input{
+       width: 35vw;
+        height: 50px;
+     }
+     .bmi3 button{
+        width: 70vw;
+     }
+ }

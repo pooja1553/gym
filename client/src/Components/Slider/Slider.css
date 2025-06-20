@@ -1,0 +1,103 @@
+.sliders{
+    background-color: #151515;
+    color: white;
+    padding: 50px 0px 100px 0px;
+    width: 50%;
+}
+.slider-h{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 200px;
+ }
+ .slider-btn button{
+    background-color: black;
+    border: 1px solid #f36100;
+    color: white;
+    height: 50px;
+    padding: 10px;
+ }
+.sliders{
+    /* background-color: white;
+    color: black; */
+    width: 100%;
+}
+.slider-show{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 321px;
+    background-color: black;
+    color: white;
+    width: 370px;
+    height: 130px;
+    transform: skewY(-5deg);
+     border-top: 2px solid grey;
+    /* transition: 1s; */
+}
+.slider-show h4,.slider-show p{
+    transform: skewY(5deg);
+}
+.slider-show{
+    /* transform: skewY(-5deg);
+    transform-origin: top left; */
+    opacity: 0;
+    transition: 1s;
+}
+.slider1-1:hover .slider-show,.slider1-2:hover .slider-show,.slider1-3:hover .slider-show,.slider1-4:hover .slider-show,.slider1-5:hover .slider-show,.slider1-6:hover .slider-show{
+    opacity: 1;
+}
+.slider1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+.slider1-1{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-1.jpg.webp);
+    width: 370px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider1-2{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-2.jpg.webp);
+    width: 370px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider1-3{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-3.jpg.webp);
+    width: 370px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider1-4{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-4.jpg.webp);
+    width: 370px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider1-5{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-5.jpg.webp);
+    width: 370px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.slider1-6{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-6.jpg.webp);
+    width: 370px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width:450px){
+    .slider-h{
+        margin: 30px;
+    }
+}

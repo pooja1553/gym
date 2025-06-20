@@ -1,0 +1,62 @@
+.third2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+.third2 p{
+    opacity: 0;
+}
+.gallery2-1:hover p,.gallery2-2:hover p,.gallery2-3:hover p{
+    opacity: 1;
+}
+.gallery2-1{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-7.jpg.webp);
+    width: 660px;
+    /* height: 470px; */
+}
+.gallery2-2{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-8.jpg.webp);
+    width: 325px;
+    /* height: 470px; */
+}
+.gallery2-3{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-9.jpg.webp);
+    width: 325px;
+    /* height: 470px; */
+}
+.third-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 320px;
+}
+.third-icon p svg{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #f36100;
+}
+.third2 p{
+    opacity: 0;
+}
+@media only screen and (max-width:400px){
+    .third-icon{
+        width: 200px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:730px){
+    .third-icon{
+        width: 400px;
+        height: 400px;
+    }
+    .icon-none{
+        display: none;
+    }
+}

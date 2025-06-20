@@ -1,0 +1,87 @@
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+}
+.third2 p{
+    opacity: 0;
+}
+.third2-1:hover p,.third2-2:hover p,.third2-3:hover p,.third3-1:hover p,.third3-2:hover p,.third3-3:hover p{
+    opacity: 1;
+}
+.third-icon{
+    width: 660px;
+    height: 470px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.third2-1{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-1.jpg.webp);
+    width: 660px;
+    height: 470px;
+    /* background-repeat: no-repeat; 
+    background-size: contain; */
+    /* width: 45vw; */
+   
+}
+.third2-2{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-2.jpg.webp);
+    width: 325px;
+    height: 470px;
+    /* width: 25vw; */
+}
+.third2-3{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-3.jpg.webp);
+    width: 325px;
+    height: 470px;
+}
+
+.third3-3{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-6.jpg.webp);
+    width: 660px;
+    height: 470px;
+}
+.third3-2{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-5.jpg.webp);
+    width: 325px;
+    height: 470px;
+}
+.third3-1{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/gallery/gallery-4.jpg.webp);
+    width: 325px;
+    height: 470px;
+}
+.third-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* .third-icon p {
+    display: none;
+} */
+.third-icon p svg{
+    display: block;
+    width: 50px;
+    height: 50px;
+    color: #f36100;
+}
+@media only screen and (max-width:730px){
+    .third-icon{
+        width: 400px;
+        height: 400px;
+    }
+}
+@media only screen and (max-width:400px){
+    .third-icon{
+        width: 200px;
+        height: 200px;
+    }
+}

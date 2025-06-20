@@ -1,0 +1,108 @@
+.plan{
+    padding: 80px 0px;
+    background-color: rgb(23, 23, 23);
+}
+.plan h5,.plan h6{
+    text-transform: uppercase;
+    text-align: center;
+}
+.plan h6{
+    padding-bottom:40px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.plan3{
+    border: 2px solid rgb(84, 84, 84);
+    padding: 50px;
+    text-align: center;
+    width: 300px;
+    transform:skewY(-4deg);
+    height: auto;
+    font-family: "Oswald", sans-serif;
+
+}
+.plan3-1{
+    transform:skewY(4deg);
+}
+.plan3 h3{
+    font-size: 18px;
+    font-weight: 900;
+}
+.plan-p{
+    color: rgb(198, 198, 198);
+    font-size: 16px;
+}
+.plan3 .plan-li {
+    list-style-type: none;
+    line-height: 30px;
+    color: rgb(198, 198, 198);
+    font-size: 12px;
+}
+.plan3 ul{
+    padding-top: 10px;
+}
+
+.plan-i{
+    float: left;
+    font-size: 50px;
+    color: #f36100;
+    opacity: 0;
+    margin-top: -30px;
+}
+ .plan-btn{
+    background-color: rgb(70, 70, 70);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: none;
+    margin-top: 10px;
+    opacity: 0;
+ }
+.plan3:hover{
+    background: white;
+    color: black;
+}
+.plan3:hover  .plan-btn{
+    background-color: #f36100;
+    color: white;
+}
+.plan3:hover .plan-li,.plan3:hover .plan-p{
+    color: black;
+}
+.plan3:hover .plan-i,.plan-btn{
+    opacity: 1;
+}
+@media only screen and (max-width:735px){
+    .plan2{
+        flex-wrap: wrap;
+    }
+    .plan3{
+        width: 280px;
+    }
+    .plan3 button{
+        width: 120px;
+    }
+}
+@media only screen and (min-width:735px) and (max-width:1050px){
+    .plan3{
+        width: 230px;
+    }
+    .plan3 button{
+        width: 130px;
+    }
+    .plan2{
+        gap:10px;
+    }
+    /* .plan h6{
+        font-size: 20px;
+    } */
+    .plan3 ul{
+        padding-bottom: 10px;
+    }
+}

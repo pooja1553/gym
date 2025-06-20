@@ -1,0 +1,43 @@
+.slide{
+    background-color: #151515;
+}
+.slide-2 img{
+    border-radius: 50%;
+    padding-bottom: 20px;
+}
+.slide-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.slide-2 h5{
+    text-align: center;
+    padding: 20px 0px;
+}
+.slide2-span span{
+    display: grid;
+}
+.slide-2 span{
+    text-align: center;
+}
+.slide-2 i{
+    color: #f36100;
+    padding-left: 10px;
+}
+.Slide2-h h3, .Slide2-h h6{
+    text-align: center;
+    text-transform: uppercase;
+}
+.Slide2-h h3{
+    font-size: 18px;
+}
+.Slide2-h h6{
+    font-size: 30px;
+    font-weight: 800;
+}
+.Slide2-h{
+    padding-top: 80px;
+}

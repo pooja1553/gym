@@ -1,0 +1,73 @@
+
+.about4-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 250px;
+ }
+ .about4-3 button{
+    background-color: black;
+    border: 1px solid #f36100;
+    color: white;
+    height: 50px;
+    padding: 10px;
+ }
+ .about5{
+    display: flex;
+    justify-content: center;
+   }
+ .slide1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:30px;
+ }
+
+ .slide2-1{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-2.jpg.webp);
+    width: 390px;
+    height: 450px;
+ }
+ .slide2-2{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-3.jpg.webp);
+    width: 390px;
+    height: 450px;
+ }
+ .slide2-3{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/team/team-4.jpg.webp);
+    width: 390px;
+    height: 450px;
+ }
+ /* .slide-h{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ } */
+
+
+ /* .slide-h2{
+    display: none;
+ }
+ .slide2-1:hover{
+    display: inline-block;
+ } */
+  .slide-h h4,.slide-h h5{
+    text-align:center;
+ }
+ .slide-h2{
+    margin-top: 24.4rem;
+    background-color: black;
+ }
+@media only screen and (max-width:500px){
+   .slides{
+      width: 280px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 450px;
+   }
+   .about4-1{
+      margin: 30px;
+   }
+}

@@ -1,0 +1,111 @@
+.icolor{
+    color:  #f36100;
+    background-color: rgb(33, 33, 33);
+    border-radius: 80%;
+    width: 80px;
+    height: 80px;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+   /* margin-bottom: 10px; */
+   }
+   .contact1-1-1 div{
+    margin-bottom: 20px;
+   }
+   .contact1-2 button{
+    background-color: #f36100;
+    color: white;
+    border: none;
+    text-align: center;
+   }
+   .contact1-1-1 i{
+    margin-right: 20px;
+   }
+   .contact1-1-1{
+    width: 500px;
+   }
+   .contact1-1{
+    display: flex;
+    gap:50px;
+   }
+   .contact1-2{
+    display: grid;
+    gap:30px;
+    width: 500px;
+   }
+   .contact1-2 input,.contact1-2 textarea{
+    background-color: black;
+    color: white;
+   }
+   .contact1-2 input{
+    height: 50px;
+   }
+   .contact1{
+    display: flex;
+    justify-content: center;
+   }
+   .contact1-1 h3{
+    padding-bottom: 50px;
+   }
+   .contact1-1 h5{
+    padding-bottom: 30px;
+   }
+   .map1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   iframe{
+    width: 1000px;
+    height: 600px;
+   }
+   .contact-btn{
+    height: 40px;
+    border-radius: 5px;
+   }
+   @media only screen and (min-width:300px) and (max-width:700px){
+    .contact1-1{
+        flex-wrap: wrap;
+       justify-content: center;
+        }
+       .contact1-1-1,.contact1-2{
+        width: 280px;
+       }
+       .icolor{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        padding: 15px;
+        }
+        .map1{
+            display: flex;
+            justify-content: center;
+            padding-left: 10px;
+        }
+        .map1 iframe{
+            width: 290px;
+            height: 300px;
+         }
+        
+   }
+   @media only screen and (min-width:700px) and (max-width:1070px){
+    .contact1-1-1,.contact1-2{
+        width: 300px;
+       }
+       .icolor{
+        width: 50px;
+        height: 50px;
+        font-size: 20px;
+        padding: 15px;
+        }
+        iframe{
+            width: 600px;
+            height: 500px;
+           }
+   }
+   @media only screen and (min-width:1070px) and (max-width:1200px){
+    iframe{
+        width: 900px;
+        height: 600px;
+       }
+   }

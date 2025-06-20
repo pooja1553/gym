@@ -1,0 +1,56 @@
+.second-img-image{
+    background-image: url(https://preview.colorlib.com/theme/gymlife/img/banner-bg.jpg.webp);
+    height: 550px;
+    /* margin: 100px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.second-img-1{
+    display: grid;
+    gap:8px;
+}
+.second-img-1 h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+.second-img-1 h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: rgb(202, 202, 202);
+}
+.second-img-1 button p svg{
+     background-color: #f36100;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+/* .second-img-1 button p svg :hover{
+    border-radius: 50%;
+    background-color: white;
+    color: #f36100;
+} */
+.second1-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-img-image button{
+    width: 200px;
+}
+@media only screen and (min-width:300px) and (max-width:700px) {
+    .second-img-1 h2{
+        font-size: 20px;
+    }
+    .second-img-1 h4{
+        font-size: 16px;
+    }
+   
+}

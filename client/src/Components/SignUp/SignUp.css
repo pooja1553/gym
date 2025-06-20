@@ -1,0 +1,60 @@
+.signup{
+    background-image: url(https://img.freepik.com/free-vector/dark-color-pattern-abstract-style_1035-2691.jpg?ga=GA1.1.1355325749.1750416159&semt=ais_hybrid&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
+}
+.signup input{
+    color: white;
+}
+.contact1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 86vh;
+    color: white;
+}
+.contact textarea{
+    color: white;
+}
+.contact2{
+    display: grid;
+    gap: 10px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 30px;
+}
+.contact2 input,.contact2 textarea{
+    width: 500px;
+    height: 40px;
+    background: transparent;
+    padding: 10px;
+}
+.contact2 textarea{
+    height: auto;
+}
+.contact2 button{
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f36100;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.contact-1 input{
+    border: 2px solid gray;
+}
+
+@media only screen and (max-width:600px){
+    .contact2{
+        padding: 10px;
+    }
+    .contact2 input,.contact2 textarea{
+        width: 80vw;
+     }
+     .enroll .contact2{
+        gap: 5px;
+     }
+}

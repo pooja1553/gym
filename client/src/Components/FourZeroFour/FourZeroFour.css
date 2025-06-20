@@ -1,0 +1,50 @@
+.four,.four1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.four1 .four2{
+    font-size: 150px;
+    font-weight: 500;
+}
+.four1 p b{
+    font-size: 25px;
+}
+.grey{
+    color: rgb(172, 172, 172);
+}
+.four1 input{
+    background-color:#f36100;
+    color: white;
+    width: 270px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+}
+.four input[placeholder]{
+    color: white;
+    /* background-color: aqua; */
+}
+.four button{
+    margin-top: 30px;
+    background-color: black;
+}
+.btn-four{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+.btn-four svg{
+    color: #f36100;
+}
+.btn-four:hover{
+    cursor: pointer;
+    color: #f36100;
+}

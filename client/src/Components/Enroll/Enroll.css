@@ -1,0 +1,14 @@
+.enroll{
+    background: url(https://img.freepik.com/free-photo/dark-plain-gray-wall-product-background_53876-129679.jpg?ga=GA1.1.1355325749.1750416159&semt=ais_hybrid&w=740);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 92vh;
+}
+.enroll input{
+    color: white;
+}
+.enroll .contact2{
+    margin-top: 40px;
+    gap: 5px;
+}
